@@ -1,0 +1,23 @@
+{
+  "name": "paper-sass",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ItsJonQ/paper-sass",
+  "authors": [
+    "ItsJonQ <itsjonq@gmail.com>"
+  ],
+  "description": "Sass Framework",
+  "keywords": [
+    "paper",
+    "sass",
+    "css",
+    "framework"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
