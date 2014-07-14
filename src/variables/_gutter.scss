@@ -1,0 +1,5 @@
+// Variables :: Gutter
+
+$paper-gutter:          ceil( ceil( $paper-value-base * 2 ) * 3 );
+$paper-gutter-half:     ceil( $paper-gutter / 2 );
+$paper-gutter-quarter:  ceil( $paper-gutter-half / 2 );

@@ -1,0 +1,5 @@
+// Mixin :: Border
+
+@mixin border-rounded() {
+  border-radius: $paper-border-radius;
+}
