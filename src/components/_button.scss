@@ -2,4 +2,6 @@
 
 @mixin paper-button() {
   @include border-rounded();
+  padding: ceil( $paper-value-default * 2 ) ceil( $paper-value-default * 4 );
+  background-color: $paper-color-button-primary;
 }
