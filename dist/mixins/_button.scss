@@ -1,5 +1,5 @@
 // Mixin :: Button
 
 @mixin button-padding( $padding: $paper-value-double ) {
-  padding: ceil( $padding ) ceil( $padding * 2 );
+  padding: ceil( $padding ) ceil( $padding * 1.5 );
 }

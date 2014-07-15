@@ -10,18 +10,19 @@
 
   $button-padding: $paper-value-double;
 
-  @if( $size: lg ) {
+  @if( $size == lg ) {
     $button-padding: ceil( $paper-value-double * 1.5 );
   }
 
-  @if( $size: sm ) {
+  @if( $size == sm ) {
     $button-padding: ceil( $paper-value-default );
   }
 
-  @if( $size: xs ) {
+  @if( $size == xs ) {
     $button-padding: ceil( $paper-value-base );
   }
 
   @include button-padding( $button-padding );
 
+  @content;
 }
