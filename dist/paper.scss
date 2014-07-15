@@ -6,7 +6,8 @@
 @import
 "variables/defaults",
 "variables/border",
-"variables/gutter";
+"variables/gutter",
+"variables/responsive";
 
 // Variables :: Colors
 @import
@@ -17,7 +18,8 @@
 @import
 "mixins/border",
 "mixins/button",
-"mixins/positioning";
+"mixins/positioning",
+"mixins/viewport";
 
 
 // Components

@@ -1,0 +1,26 @@
+// Mixin :: Viewport
+
+@mixin viewport-mobile() {
+  @media screen and ( max-width: $paper-responsive-mobile-max ) {
+    @content;
+  }
+}
+
+@mixin viewport-tablet() {
+  @media ( min-width: $paper-responsive-tablet ) {
+    @content;
+  }
+
+}
+
+@mixin viewport-desktop() {
+  @media ( min-width: $paper-responsive-desktop ) {
+    @content;
+  }
+}
+
+@mixin viewport-desktop-lg() {
+  @media ( min-width: $paper-responsive-desktop-lg ) {
+    @content;
+  }
+}

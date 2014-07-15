@@ -4,7 +4,6 @@
   @include align-middle();
   @include border-rounded();
   @include user-select( none );
-  background-color: $paper-color-button-primary;
   cursor: pointer;
   display: inline-block;
 
