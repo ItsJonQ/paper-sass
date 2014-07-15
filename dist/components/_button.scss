@@ -1,7 +1,27 @@
 // Component :: Button
 
-@mixin paper-button() {
+@mixin paper-button( $size: default ) {
+  @include align-middle();
   @include border-rounded();
-  padding: ceil( $paper-value-default * 2 ) ceil( $paper-value-default * 4 );
+  @include user-select( none );
   background-color: $paper-color-button-primary;
+  cursor: pointer;
+  display: inline-block;
+
+  $button-padding: $paper-value-double;
+
+  @if( $size: lg ) {
+    $button-padding: ceil( $paper-value-double * 1.5 );
+  }
+
+  @if( $size: sm ) {
+    $button-padding: ceil( $paper-value-default );
+  }
+
+  @if( $size: xs ) {
+    $button-padding: ceil( $paper-value-base );
+  }
+
+  @include button-padding( $button-padding );
+
 }
